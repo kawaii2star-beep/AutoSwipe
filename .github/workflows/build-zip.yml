@@ -20,8 +20,8 @@
              gradle-version: 8.7
 
          - name: Unzip project
-           run: unzip -q AutoSwipeRight.zip
-
+         run: unzip -q .github/workflows/AutoSwipeRight.zip
+   
          - name: Build debug APK
            working-directory: AutoSwipeRight
            run: gradle assembleDebug --no-daemon
